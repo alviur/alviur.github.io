@@ -29,7 +29,7 @@ Then point your Google Site to the new address (or add a link on it) so old link
 ## Editing
 
 - **News:** add a new `<li>` at the top of the `<ul class="news">` list. The first six show by default; update the "Show all 18 items" text if the count changes.
-- **Publications:** copy an existing `<li class="pub">` in the right group (Conferences, Journals, Workshops and others) and change the venue, year, title, authors and link. Wrap your own name in `<b>…</b>`. Update the count next to the group heading.
+- **Publications:** copy an existing `<li class="pub">` in the right group (Conferences, Journals, Workshops and others, Under review) and change the venue, year, title, authors and link. Wrap your own name in `<b>…</b>`. Update the count next to the group heading.
 - **Teaching:** add a `<li>` to the `<ul class="courses">` list.
 
 You can edit any file directly on github.com (pencil icon); the site updates within a minute of saving.
