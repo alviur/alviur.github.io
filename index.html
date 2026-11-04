@@ -22,6 +22,7 @@
     <nav class="nav" aria-label="Sections">
       <a href="#home">Home</a>
       <a href="#publications">Publications</a>
+      <a href="#students">Students</a>
       <a href="#teaching">Teaching</a>
     </nav>
   </div>
@@ -167,6 +168,16 @@
 
     </section>
 
+    <section id="students" aria-labelledby="students-h">
+      <h2 id="students-h">Students</h2>
+      <h3>PhD students</h3>
+      <ul class="students">
+        <li><a class="student" href="https://julian075.github.io/">Julian Santamaria</a></li>
+        <li><span class="student">Yiping Han</span><span class="cosup">Co-supervised with Joost van de Weijer</span></li>
+        <li><a class="student" href="https://scholar.google.es/citations?user=FwUYT_oAAAAJ&amp;hl=es">Engy Ehab</a><span class="cosup">Co-supervised with Javier Vazquez-Corral and Nahla Belal</span></li>
+      </ul>
+    </section>
+
     <section id="teaching" aria-labelledby="teach-h">
       <h2 id="teach-h">Teaching</h2>
       <ul class="courses">
@@ -219,7 +230,7 @@
         links.forEach(function (a) { a.setAttribute('aria-current', String(a.getAttribute('href') === '#' + e.target.id)); });
       });
     }, { rootMargin: '-40% 0px -55% 0px' });
-    ['home', 'publications', 'teaching'].forEach(function (id) { var el = document.getElementById(id); if (el) io.observe(el); });
+    ['home', 'publications', 'students', 'teaching'].forEach(function (id) { var el = document.getElementById(id); if (el) io.observe(el); });
   }
 })();
 </script>

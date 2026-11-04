@@ -4,7 +4,7 @@ Personal academic website of Alexandra Gomez-Villa. Plain HTML and CSS, no build
 
 ## Files
 
-- `index.html` — all content: Bio, Research interests, News, Publications, Teaching
+- `index.html` — all content: Bio, Research interests, News, Publications, Students, Teaching
 - `style.css` — design
 - `assets/photo.jpg` — your portrait (add it; initials show until it exists)
 - `.nojekyll` — tells GitHub Pages to serve the files as they are
@@ -30,6 +30,7 @@ Then point your Google Site to the new address (or add a link on it) so old link
 
 - **News:** add a new `<li>` at the top of the `<ul class="news">` list. The first six show by default; update the "Show all 19 items" text if the count changes.
 - **Publications:** copy an existing `<li class="pub">` in the right group (Conferences, Journals, Workshops and others, Under review) and change the venue, year, title, authors and link. Wrap your own name in `<b>…</b>`. Update the count next to the group heading.
+- **Students:** add a `<li>` to the `<ul class="students">` list.
 - **Teaching:** add a `<li>` to the `<ul class="courses">` list.
 
 You can edit any file directly on github.com (pencil icon); the site updates within a minute of saving.
